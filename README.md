@@ -1,1 +1,8 @@
-# Analysis-and-Forecasting-of-COVID-19-Cases-in-Chile-
+# Analysis and Forecasting of COVID-19 Cases in Chile Using Classical and ARIMA Models: A Comparative Study.
+
+# Methods
+The project used classical and ARIMA models to analyze and forecast COVID-19 cases in Chile. The Holt-Winters method was also used to compare its performance with the other models. The dataset was divided into three waves and a full period, and the analysis involved fitting various models and comparing their forecasting performance. To assess the out-of-sample forecasting performance of the ARIMA and SARIMA models, the dataset was divided into training and testing subsets. Approximately 80% of the data was used for training and 20% for testing. 
+
+# Results
+The results of the project showed that the Holt-Winters method had varying performance across different waves and the full period, with the multiplicative model generally outperforming the additive model. ARIMA and auto.ARIMA models were more accurate than classical models, especially for waves 1 and 3, while the multiplicative model performed better for wave 2. The best forecasting model varied depending on the wave being considered and the specific accuracy metric used for comparison (e.g., RMSE). The project also found that accurate forecasting of COVID-19 cases can inform decisions on resource allocation, public health measures, and vaccination strategies. Understanding the performance of different forecasting models can help improve future predictions and guide decision-making. Public health authorities should consider using a combination of models or a model selection approach based on the specific wave or period being analyzed.
+
